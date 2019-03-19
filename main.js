@@ -67,7 +67,7 @@ var AppRoutingModule = /** @class */ (function () {
     }
     AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
+            imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes, { useHash: true })],
             exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
         })
     ], AppRoutingModule);
@@ -182,7 +182,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// import { CodemirrorModule } from 'ng2-codemirror';
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -211,7 +210,6 @@ var AppModule = /** @class */ (function () {
                 _angular_material_radio__WEBPACK_IMPORTED_MODULE_9__["MatRadioModule"],
                 _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_10__["MatButtonToggleModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"]
-                // CodemirrorModule
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_13__["AppComponent"]]

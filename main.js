@@ -39,8 +39,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lingjia_lingjia_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lingjia/lingjia.component */ "./src/app/lingjia/lingjia.component.ts");
 /* harmony import */ var _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utilities/utilities.component */ "./src/app/utilities/utilities.component.ts");
 /* harmony import */ var _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utilities/timestamp/timestamp.component */ "./src/app/utilities/timestamp/timestamp.component.ts");
-/* harmony import */ var _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utilities/compare/compare.component */ "./src/app/utilities/compare/compare.component.ts");
-/* harmony import */ var _games_games_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./games/games.component */ "./src/app/games/games.component.ts");
+/* harmony import */ var _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utilities/number/number.component */ "./src/app/utilities/number/number.component.ts");
+/* harmony import */ var _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utilities/compare/compare.component */ "./src/app/utilities/compare/compare.component.ts");
+/* harmony import */ var _games_games_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./games/games.component */ "./src/app/games/games.component.ts");
+
 
 
 
@@ -57,10 +59,11 @@ var routes = [
         component: _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_4__["UtilitiesComponent"],
         children: [
             { path: 'timestamp', component: _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_5__["TimestampComponent"] },
-            { path: 'compare', component: _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_6__["CompareComponent"] }
+            { path: 'compare', component: _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_7__["CompareComponent"] },
+            { path: 'number', component: _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_6__["NumberComponent"] }
         ]
     },
-    { path: 'games', component: _games_games_component__WEBPACK_IMPORTED_MODULE_7__["GamesComponent"] }
+    { path: 'games', component: _games_games_component__WEBPACK_IMPORTED_MODULE_8__["GamesComponent"] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -154,14 +157,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_radio__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/radio */ "./node_modules/@angular/material/esm5/radio.es5.js");
 /* harmony import */ var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/button-toggle */ "./node_modules/@angular/material/esm5/button-toggle.es5.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./utilities/utilities.component */ "./src/app/utilities/utilities.component.ts");
-/* harmony import */ var _lingjia_lingjia_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./lingjia/lingjia.component */ "./src/app/lingjia/lingjia.component.ts");
-/* harmony import */ var _games_games_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./games/games.component */ "./src/app/games/games.component.ts");
-/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm5/expansion.es5.js");
-/* harmony import */ var _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./utilities/timestamp/timestamp.component */ "./src/app/utilities/timestamp/timestamp.component.ts");
-/* harmony import */ var _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./utilities/compare/compare.component */ "./src/app/utilities/compare/compare.component.ts");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm5/select.es5.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./utilities/utilities.component */ "./src/app/utilities/utilities.component.ts");
+/* harmony import */ var _lingjia_lingjia_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./lingjia/lingjia.component */ "./src/app/lingjia/lingjia.component.ts");
+/* harmony import */ var _games_games_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./games/games.component */ "./src/app/games/games.component.ts");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm5/expansion.es5.js");
+/* harmony import */ var _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./utilities/timestamp/timestamp.component */ "./src/app/utilities/timestamp/timestamp.component.ts");
+/* harmony import */ var _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./utilities/compare/compare.component */ "./src/app/utilities/compare/compare.component.ts");
+/* harmony import */ var _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./utilities/number/number.component */ "./src/app/utilities/number/number.component.ts");
+
+
 
 
 
@@ -188,16 +195,17 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_13__["AppComponent"],
-                _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_14__["UtilitiesComponent"],
-                _lingjia_lingjia_component__WEBPACK_IMPORTED_MODULE_15__["LingjiaComponent"],
-                _games_games_component__WEBPACK_IMPORTED_MODULE_16__["GamesComponent"],
-                _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_18__["TimestampComponent"],
-                _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_19__["CompareComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_14__["AppComponent"],
+                _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_15__["UtilitiesComponent"],
+                _lingjia_lingjia_component__WEBPACK_IMPORTED_MODULE_16__["LingjiaComponent"],
+                _games_games_component__WEBPACK_IMPORTED_MODULE_17__["GamesComponent"],
+                _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_19__["TimestampComponent"],
+                _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_20__["CompareComponent"],
+                _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_21__["NumberComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_12__["AppRoutingModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_13__["AppRoutingModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatCheckboxModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatMenuModule"],
@@ -205,14 +213,15 @@ var AppModule = /** @class */ (function () {
                 _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"],
                 _angular_material_divider__WEBPACK_IMPORTED_MODULE_6__["MatDividerModule"],
                 _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_7__["MatSidenavModule"],
-                _angular_material_expansion__WEBPACK_IMPORTED_MODULE_17__["MatExpansionModule"],
+                _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__["MatExpansionModule"],
                 _angular_material_list__WEBPACK_IMPORTED_MODULE_8__["MatListModule"],
                 _angular_material_radio__WEBPACK_IMPORTED_MODULE_9__["MatRadioModule"],
                 _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_10__["MatButtonToggleModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"]
+                _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"],
+                _angular_material_select__WEBPACK_IMPORTED_MODULE_12__["MatSelectModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_13__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_14__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -409,6 +418,153 @@ var CompareComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/utilities/number/number.component.html":
+/*!********************************************************!*\
+  !*** ./src/app/utilities/number/number.component.html ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<mat-select class=\"numberconvert\" [(value)]=\"sourceType\">\n  <mat-option *ngFor=\"let item of sourceItems\" [value]=\"item.value\" [disabled]=\"item.disabled\" (click)=\"changeSource(item)\">\n    {{item.text}}\n  </mat-option>\n</mat-select>\n<input class=\"txtsource\" matInput placeholder=\"输入要转化的数字\" [(ngModel)]=\"sourceNumber\">\n<button class=\"transfer\" mat-mini-fab (click)=\"translate()\">转化</button>\n<mat-select class=\"numberconvert\" [(value)]=\"targetType\">\n  <mat-option *ngFor=\"let item of targetItems\" [value]=\"item.value\" [disabled]=\"item.disabled\">\n    {{item.text}}\n  </mat-option>\n</mat-select>\n<input class=\"txttarget\" matInput [(ngModel)]=\"targetNumber\">"
+
+/***/ }),
+
+/***/ "./src/app/utilities/number/number.component.scss":
+/*!********************************************************!*\
+  !*** ./src/app/utilities/number/number.component.scss ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".numberconvert {\n  width: 120px;\n  height: 30px;\n  margin-left: 30px; }\n\n.txtsource, .txttarget {\n  width: 120px;\n  height: 30px;\n  margin-left: 30px; }\n\n.transfer {\n  margin-left: 30px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdXRpbGl0aWVzL251bWJlci9EOlxcZ2l0XFxteXNpdGUvc3JjXFxhcHBcXHV0aWxpdGllc1xcbnVtYmVyXFxudW1iZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFZO0VBQ1osWUFBWTtFQUNaLGlCQUFpQixFQUFBOztBQUduQjtFQUNFLFlBQVk7RUFDWixZQUFZO0VBQ1osaUJBQWlCLEVBQUE7O0FBR25CO0VBQ0UsaUJBQWlCLEVBQUEiLCJmaWxlIjoic3JjL2FwcC91dGlsaXRpZXMvbnVtYmVyL251bWJlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5udW1iZXJjb252ZXJ0IHtcclxuICB3aWR0aDogMTIwcHg7XHJcbiAgaGVpZ2h0OiAzMHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAzMHB4O1xyXG59XHJcblxyXG4udHh0c291cmNlLC50eHR0YXJnZXQge1xyXG4gIHdpZHRoOiAxMjBweDtcclxuICBoZWlnaHQ6IDMwcHg7XHJcbiAgbWFyZ2luLWxlZnQ6IDMwcHg7XHJcbn1cclxuXHJcbi50cmFuc2ZlciB7XHJcbiAgbWFyZ2luLWxlZnQ6IDMwcHg7XHJcbn0iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/utilities/number/number.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/utilities/number/number.component.ts ***!
+  \******************************************************/
+/*! exports provided: NumberComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NumberComponent", function() { return NumberComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var NumberComponent = /** @class */ (function () {
+    function NumberComponent() {
+        this.sourceItems = [
+            {
+                value: 'option1',
+                text: '2进制',
+                disabled: false
+            },
+            {
+                value: 'option2',
+                text: '8进制',
+                disabled: false
+            },
+            {
+                value: 'option3',
+                text: '10进制',
+                disabled: false
+            },
+            {
+                value: 'option4',
+                text: '16进制',
+                disabled: false
+            }
+        ];
+        this.targetItems = [
+            {
+                value: 'option1',
+                text: '2进制',
+                disabled: true
+            },
+            {
+                value: 'option2',
+                text: '8进制',
+                disabled: false
+            },
+            {
+                value: 'option3',
+                text: '10进制',
+                disabled: false
+            },
+            {
+                value: 'option4',
+                text: '16进制',
+                disabled: false
+            }
+        ];
+    }
+    NumberComponent.prototype.ngOnInit = function () {
+        this.sourceType = "option1";
+        this.targetType = "option2";
+    };
+    NumberComponent.prototype.changeSource = function (item) {
+        var _this = this;
+        var needChangeTarget = false;
+        if (item.value === this.targetType) {
+            needChangeTarget = true;
+        }
+        this.targetItems.forEach(function (i) {
+            i.disabled = i.value === item.value;
+            if (needChangeTarget) {
+                if (i.value != _this.targetType) {
+                    _this.targetType = i.value;
+                    needChangeTarget = false;
+                }
+            }
+        });
+    };
+    NumberComponent.prototype.translate = function () {
+        var sourceTransferNum = '';
+        switch (this.sourceType) {
+            case 'option1':
+                sourceTransferNum = '2';
+                break;
+            case 'option2':
+                sourceTransferNum = '8';
+                break;
+            case 'option4':
+                sourceTransferNum = '16';
+                break;
+        }
+        var targetTransferNum = '';
+        switch (this.targetType) {
+            case 'option1':
+                targetTransferNum = '2';
+                break;
+            case 'option2':
+                targetTransferNum = '8';
+                break;
+            case 'option4':
+                targetTransferNum = '16';
+                break;
+        }
+        this.targetNumber = targetTransferNum === '' ?
+            parseInt(this.sourceNumber, parseInt(sourceTransferNum)).toString() :
+            parseInt(this.sourceNumber, parseInt(sourceTransferNum)).toString(parseInt(targetTransferNum));
+    };
+    NumberComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-number',
+            template: __webpack_require__(/*! ./number.component.html */ "./src/app/utilities/number/number.component.html"),
+            styles: [__webpack_require__(/*! ./number.component.scss */ "./src/app/utilities/number/number.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], NumberComponent);
+    return NumberComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/utilities/timestamp/timestamp.component.html":
 /*!**************************************************************!*\
   !*** ./src/app/utilities/timestamp/timestamp.component.html ***!
@@ -493,7 +649,7 @@ var TimestampComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-drawer-container class=\"utilities\">\n  <mat-drawer class=\"type\" mode=\"side\" opened>\n      <mat-accordion>\n        <mat-expansion-panel>\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              Regular\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"timestamp\">\n            <span>linux时间戳</span>\n          </button>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"compare\">\n            <span>文字对比</span>\n          </button>\n        </mat-expansion-panel>\n        <mat-expansion-panel (opened)=\"panelOpenState = true\"\n          (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              Second\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n          <p>The second one</p>\n        </mat-expansion-panel>\n      </mat-accordion>\n  </mat-drawer>\n  <mat-drawer-content class=\"content\">\n    <div *ngIf=\"showTips\">平常经常会用到的工具都会放到这里</div>\n    <router-outlet></router-outlet>\n  </mat-drawer-content>\n</mat-drawer-container>"
+module.exports = "<mat-drawer-container class=\"utilities\">\n  <mat-drawer class=\"type\" mode=\"side\" opened>\n      <mat-accordion>\n        <mat-expansion-panel>\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              Regular\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"timestamp\">\n            <span>linux时间戳</span>\n          </button>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"compare\">\n            <span>文字对比</span>\n          </button>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"number\">\n            <span>进制转化</span>\n          </button>\n        </mat-expansion-panel>\n        <mat-expansion-panel (opened)=\"panelOpenState = true\"\n          (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              Second\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n          <p>The second one</p>\n        </mat-expansion-panel>\n      </mat-accordion>\n  </mat-drawer>\n  <mat-drawer-content class=\"content\">\n    <div *ngIf=\"showTips\">平常经常会用到的工具都会放到这里</div>\n    <router-outlet></router-outlet>\n  </mat-drawer-content>\n</mat-drawer-container>"
 
 /***/ }),
 

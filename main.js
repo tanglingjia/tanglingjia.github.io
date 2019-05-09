@@ -40,8 +40,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utilities/utilities.component */ "./src/app/utilities/utilities.component.ts");
 /* harmony import */ var _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utilities/timestamp/timestamp.component */ "./src/app/utilities/timestamp/timestamp.component.ts");
 /* harmony import */ var _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utilities/number/number.component */ "./src/app/utilities/number/number.component.ts");
-/* harmony import */ var _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utilities/compare/compare.component */ "./src/app/utilities/compare/compare.component.ts");
-/* harmony import */ var _games_games_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./games/games.component */ "./src/app/games/games.component.ts");
+/* harmony import */ var _utilities_jsonformat_jsonformat_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utilities/jsonformat/jsonformat.component */ "./src/app/utilities/jsonformat/jsonformat.component.ts");
+/* harmony import */ var _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./utilities/compare/compare.component */ "./src/app/utilities/compare/compare.component.ts");
+/* harmony import */ var _games_games_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./games/games.component */ "./src/app/games/games.component.ts");
+
 
 
 
@@ -59,11 +61,12 @@ var routes = [
         component: _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_4__["UtilitiesComponent"],
         children: [
             { path: 'timestamp', component: _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_5__["TimestampComponent"] },
-            { path: 'compare', component: _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_7__["CompareComponent"] },
-            { path: 'number', component: _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_6__["NumberComponent"] }
+            { path: 'compare', component: _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_8__["CompareComponent"] },
+            { path: 'number', component: _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_6__["NumberComponent"] },
+            { path: 'jsonformat', component: _utilities_jsonformat_jsonformat_component__WEBPACK_IMPORTED_MODULE_7__["JsonformatComponent"] }
         ]
     },
-    { path: 'games', component: _games_games_component__WEBPACK_IMPORTED_MODULE_8__["GamesComponent"] }
+    { path: 'games', component: _games_games_component__WEBPACK_IMPORTED_MODULE_9__["GamesComponent"] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -158,15 +161,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/button-toggle */ "./node_modules/@angular/material/esm5/button-toggle.es5.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 /* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/esm5/select.es5.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./utilities/utilities.component */ "./src/app/utilities/utilities.component.ts");
-/* harmony import */ var _lingjia_lingjia_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./lingjia/lingjia.component */ "./src/app/lingjia/lingjia.component.ts");
-/* harmony import */ var _games_games_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./games/games.component */ "./src/app/games/games.component.ts");
-/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm5/expansion.es5.js");
-/* harmony import */ var _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./utilities/timestamp/timestamp.component */ "./src/app/utilities/timestamp/timestamp.component.ts");
-/* harmony import */ var _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./utilities/compare/compare.component */ "./src/app/utilities/compare/compare.component.ts");
-/* harmony import */ var _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./utilities/number/number.component */ "./src/app/utilities/number/number.component.ts");
+/* harmony import */ var _angular_material_tree__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/tree */ "./node_modules/@angular/material/esm5/tree.es5.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./utilities/utilities.component */ "./src/app/utilities/utilities.component.ts");
+/* harmony import */ var _lingjia_lingjia_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./lingjia/lingjia.component */ "./src/app/lingjia/lingjia.component.ts");
+/* harmony import */ var _games_games_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./games/games.component */ "./src/app/games/games.component.ts");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/esm5/expansion.es5.js");
+/* harmony import */ var _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./utilities/timestamp/timestamp.component */ "./src/app/utilities/timestamp/timestamp.component.ts");
+/* harmony import */ var _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./utilities/compare/compare.component */ "./src/app/utilities/compare/compare.component.ts");
+/* harmony import */ var _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./utilities/number/number.component */ "./src/app/utilities/number/number.component.ts");
+/* harmony import */ var _utilities_jsonformat_jsonformat_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./utilities/jsonformat/jsonformat.component */ "./src/app/utilities/jsonformat/jsonformat.component.ts");
+
+
 
 
 
@@ -195,17 +202,18 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_14__["AppComponent"],
-                _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_15__["UtilitiesComponent"],
-                _lingjia_lingjia_component__WEBPACK_IMPORTED_MODULE_16__["LingjiaComponent"],
-                _games_games_component__WEBPACK_IMPORTED_MODULE_17__["GamesComponent"],
-                _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_19__["TimestampComponent"],
-                _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_20__["CompareComponent"],
-                _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_21__["NumberComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_15__["AppComponent"],
+                _utilities_utilities_component__WEBPACK_IMPORTED_MODULE_16__["UtilitiesComponent"],
+                _lingjia_lingjia_component__WEBPACK_IMPORTED_MODULE_17__["LingjiaComponent"],
+                _games_games_component__WEBPACK_IMPORTED_MODULE_18__["GamesComponent"],
+                _utilities_timestamp_timestamp_component__WEBPACK_IMPORTED_MODULE_20__["TimestampComponent"],
+                _utilities_compare_compare_component__WEBPACK_IMPORTED_MODULE_21__["CompareComponent"],
+                _utilities_number_number_component__WEBPACK_IMPORTED_MODULE_22__["NumberComponent"],
+                _utilities_jsonformat_jsonformat_component__WEBPACK_IMPORTED_MODULE_23__["JsonformatComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_13__["AppRoutingModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_14__["AppRoutingModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatCheckboxModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatMenuModule"],
@@ -213,15 +221,16 @@ var AppModule = /** @class */ (function () {
                 _angular_material_icon__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"],
                 _angular_material_divider__WEBPACK_IMPORTED_MODULE_6__["MatDividerModule"],
                 _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_7__["MatSidenavModule"],
-                _angular_material_expansion__WEBPACK_IMPORTED_MODULE_18__["MatExpansionModule"],
+                _angular_material_expansion__WEBPACK_IMPORTED_MODULE_19__["MatExpansionModule"],
                 _angular_material_list__WEBPACK_IMPORTED_MODULE_8__["MatListModule"],
                 _angular_material_radio__WEBPACK_IMPORTED_MODULE_9__["MatRadioModule"],
                 _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_10__["MatButtonToggleModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"],
-                _angular_material_select__WEBPACK_IMPORTED_MODULE_12__["MatSelectModule"]
+                _angular_material_select__WEBPACK_IMPORTED_MODULE_12__["MatSelectModule"],
+                _angular_material_tree__WEBPACK_IMPORTED_MODULE_13__["MatTreeModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_14__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_15__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -412,6 +421,225 @@ var CompareComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], CompareComponent);
     return CompareComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/utilities/jsonformat/jsonformat.component.html":
+/*!****************************************************************!*\
+  !*** ./src/app/utilities/jsonformat/jsonformat.component.html ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"jf\">\n  <div class=\"jfinput\">\n    <textarea matInput [(ngModel)]=\"inputJson\" (ngModelChange)=\"changeInput()\"></textarea>\n  </div>\n  <div *ngIf=\"inputJsonException===''\" class=\"jfresult\">\n    <mat-tree class=\"jfresulttree\" [dataSource]=\"dataSource\" [treeControl]=\"treeControl\">\n      <!-- This is the tree node template for leaf nodes -->\n      <mat-tree-node *matTreeNodeDef=\"let node\" matTreeNodePadding>\n        <!-- use a disabled button to provide padding for tree leaf -->\n        <button mat-icon-button disabled></button>\n        <span *ngIf=\"node.childIndex\" [ngClass]=\"{'childindex':node.childIndex}\">{{node.childIndex}}</span>\n        {{ node.childIndex ? '&nbsp;' : '' }}\n        <span *ngIf=\"node.hasOwnProperty('field')\">{{node.field}}</span>\n        {{ (node.field && node.hasOwnProperty('value')) ? '&nbsp;:&nbsp;' : '' }}\n        <span *ngIf=\"node.hasOwnProperty('value')\" [ngClass] =\"{'jfstring':node.childType==='string','jfnumber':node.childType==='number','jfboolean':node.childType==='boolean','jfnull':node.childType==='object'}\">{{node.value}}</span>\n      </mat-tree-node>\n      <!-- This is the tree node template for expandable nodes -->\n      <mat-tree-node *matTreeNodeDef=\"let node;when: hasChild\" matTreeNodePadding>\n        <button mat-icon-button matTreeNodeToggle\n                [attr.aria-label]=\"'toggle ' + node.name\">\n          <mat-icon class=\"mat-icon-rtl-mirror\">\n            {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}\n          </mat-icon>\n        </button>\n        <span *ngIf=\"node.hasOwnProperty('childIndex')\" [ngClass]=\"{'childindex':node.childIndex}\">{{node.childIndex}}</span>\n        {{ node.childIndex ? '&nbsp;' : '' }}\n        <span *ngIf=\"node.hasOwnProperty('field')\">{{node.field}}</span>\n        {{ (node.field && node.value) ? '&nbsp;:&nbsp;' : '' }}\n        <span *ngIf=\"node.hasOwnProperty('value')\">{{node.value}}</span>\n      </mat-tree-node>\n    </mat-tree>\n  </div>\n  <div *ngIf=\"inputJsonException!==''\" class=\"jfexception\">\n    <textarea matInput [(ngModel)]=\"inputJsonException\"></textarea>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/utilities/jsonformat/jsonformat.component.scss":
+/*!****************************************************************!*\
+  !*** ./src/app/utilities/jsonformat/jsonformat.component.scss ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".jf {\n  height: calc(100% - 40px);\n  width: 100%; }\n  .jf .jfinput {\n    width: 48%;\n    float: left;\n    height: 100%; }\n  .jf .jfinput textarea {\n      width: 100%;\n      height: 100%; }\n  .jf .jfresult {\n    height: 100%;\n    width: 48%;\n    float: left;\n    margin-left: 2%;\n    padding-bottom: 10px; }\n  .jf .jfresult .jfresulttree {\n      height: 100%;\n      overflow: scroll; }\n  .jf .jfexception {\n    width: 48%;\n    float: left;\n    margin-left: 2%;\n    height: 100%; }\n  .jf .jfexception textarea {\n      width: 100%;\n      height: 100%; }\n  .childindex {\n  color: green; }\n  .jfstring {\n  color: blue; }\n  .jfnumber {\n  color: brown; }\n  .jfboolean {\n  color: orangered; }\n  .jfnull {\n  color: purple; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdXRpbGl0aWVzL2pzb25mb3JtYXQvRDpcXGdpdFxcbXlzaXRlL3NyY1xcYXBwXFx1dGlsaXRpZXNcXGpzb25mb3JtYXRcXGpzb25mb3JtYXQuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDRSx5QkFBeUI7RUFDekIsV0FBVyxFQUFBO0VBRmI7SUFJSSxVQUFVO0lBQ1YsV0FBVztJQUNYLFlBQVksRUFBQTtFQU5oQjtNQVFNLFdBQVc7TUFDWCxZQUFZLEVBQUE7RUFUbEI7SUFhSSxZQUFZO0lBQ1osVUFBVTtJQUNWLFdBQVc7SUFDWCxlQUFlO0lBQ2Ysb0JBQW9CLEVBQUE7RUFqQnhCO01BbUJNLFlBQVk7TUFDWixnQkFBZ0IsRUFBQTtFQXBCdEI7SUF3QkksVUFBVTtJQUNWLFdBQVc7SUFDWCxlQUFlO0lBQ2YsWUFBWSxFQUFBO0VBM0JoQjtNQTZCTSxXQUFXO01BQ1gsWUFBWSxFQUFBO0VBSWxCO0VBQ0UsWUFBWSxFQUFBO0VBRWQ7RUFDRSxXQUFVLEVBQUE7RUFFWjtFQUNFLFlBQVcsRUFBQTtFQUViO0VBQ0UsZ0JBQWUsRUFBQTtFQUVqQjtFQUNFLGFBQVksRUFBQSIsImZpbGUiOiJzcmMvYXBwL3V0aWxpdGllcy9qc29uZm9ybWF0L2pzb25mb3JtYXQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLmpmIHtcclxuICBoZWlnaHQ6IGNhbGMoMTAwJSAtIDQwcHgpO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIC5qZmlucHV0IHtcclxuICAgIHdpZHRoOiA0OCU7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIGhlaWdodDogMTAwJTtcclxuICAgIHRleHRhcmVhIHtcclxuICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgIGhlaWdodDogMTAwJTtcclxuICAgIH1cclxuICB9XHJcbiAgLmpmcmVzdWx0IHtcclxuICAgIGhlaWdodDogMTAwJTtcclxuICAgIHdpZHRoOiA0OCU7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIG1hcmdpbi1sZWZ0OiAyJTtcclxuICAgIHBhZGRpbmctYm90dG9tOiAxMHB4O1xyXG4gICAgLmpmcmVzdWx0dHJlZSB7XHJcbiAgICAgIGhlaWdodDogMTAwJTtcclxuICAgICAgb3ZlcmZsb3c6IHNjcm9sbDtcclxuICAgIH1cclxuICB9XHJcbiAgLmpmZXhjZXB0aW9uIHtcclxuICAgIHdpZHRoOiA0OCU7XHJcbiAgICBmbG9hdDogbGVmdDtcclxuICAgIG1hcmdpbi1sZWZ0OiAyJTtcclxuICAgIGhlaWdodDogMTAwJTtcclxuICAgIHRleHRhcmVhIHtcclxuICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgIGhlaWdodDogMTAwJTtcclxuICAgIH1cclxuICB9XHJcbn1cclxuLmNoaWxkaW5kZXgge1xyXG4gIGNvbG9yOiBncmVlbjtcclxufVxyXG4uamZzdHJpbmcge1xyXG4gIGNvbG9yOmJsdWU7XHJcbn1cclxuLmpmbnVtYmVyIHtcclxuICBjb2xvcjpicm93bjtcclxufVxyXG4uamZib29sZWFuIHtcclxuICBjb2xvcjpvcmFuZ2VyZWQ7XHJcbn1cclxuLmpmbnVsbCB7XHJcbiAgY29sb3I6cHVycGxlO1xyXG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/utilities/jsonformat/jsonformat.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/utilities/jsonformat/jsonformat.component.ts ***!
+  \**************************************************************/
+/*! exports provided: JsonformatComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JsonformatComponent", function() { return JsonformatComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_cdk_tree__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/cdk/tree */ "./node_modules/@angular/cdk/esm5/tree.es5.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material_tree__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/tree */ "./node_modules/@angular/material/esm5/tree.es5.js");
+
+
+
+
+var JsonformatComponent = /** @class */ (function () {
+    function JsonformatComponent() {
+        this.inputJson = '';
+        this.inputJsonException = '';
+        this.validJson = '';
+        this.treeData = [
+        // {
+        //   field: 'Fruit',
+        //   children: [
+        //     {
+        //       value: 'Apple',
+        //       childIndex: '[0]'
+        //     },
+        //     {
+        //       value: 'Banana',
+        //       childIndex: '[1]'
+        //     },
+        //     {
+        //       childIndex: '[2]',
+        //       children: [
+        //         {
+        //           field: 'subitem1',
+        //           value: "item1"
+        //         },
+        //         {
+        //           field: 'subitem2',
+        //           value: 1
+        //         },
+        //         {
+        //           field: 'subitem3',
+        //           value: false
+        //         }
+        //       ]
+        //     },
+        //   ]
+        // },
+        // {
+        //   field: 'Vegetables',
+        //   children: [
+        //     {
+        //       field: 'Green',
+        //       children: [
+        //         {
+        //           value: 'Broccoli',
+        //           childIndex: '[0]'
+        //         },
+        //         {
+        //           value: 'Brussel sprouts',
+        //           childIndex: '[1]'
+        //         },
+        //       ]
+        //     }, 
+        //     {
+        //       field: 'num2',
+        //       children: [
+        //         {
+        //           field: 'Pumpkins',
+        //           value: 'Pumpkins1'
+        //         },
+        //         {
+        //           field: 'Carrots',
+        //           value: null
+        //         },
+        //       ]
+        //     },
+        //   ]
+        // }
+        ];
+        this.transformer = function (node, level) {
+            var convertedValue;
+            if (node.hasOwnProperty('value')) {
+                switch (typeof (node.value)) {
+                    case "string":
+                        convertedValue = "\"" + node.value + "\"";
+                        break;
+                    case "number":
+                        convertedValue = node.value;
+                        break;
+                    case "boolean":
+                        convertedValue = node.value ? 'true' : 'false';
+                        break;
+                    case "object":
+                        convertedValue = 'null';
+                        break;
+                    default:
+                        break;
+                }
+            }
+            return {
+                expandable: !!node.children && node.children.length > 0,
+                field: node.field,
+                value: convertedValue,
+                childIndex: node.childIndex,
+                childType: typeof (node.value),
+                level: level
+            };
+        };
+        this.treeControl = new _angular_cdk_tree__WEBPACK_IMPORTED_MODULE_1__["FlatTreeControl"](function (node) { return node.level; }, function (node) { return node.expandable; });
+        this.treeFlattener = new _angular_material_tree__WEBPACK_IMPORTED_MODULE_3__["MatTreeFlattener"](this.transformer, function (node) { return node.level; }, function (node) { return node.expandable; }, function (node) { return node.children; });
+        this.dataSource = new _angular_material_tree__WEBPACK_IMPORTED_MODULE_3__["MatTreeFlatDataSource"](this.treeControl, this.treeFlattener);
+        this.hasChild = function (_, node) { return node.expandable; };
+        this.dataSource.data = [];
+    }
+    JsonformatComponent.prototype.ngOnInit = function () {
+    };
+    JsonformatComponent.prototype.changeInput = function () {
+        if (this.inputJson !== '') {
+            this.toJSON(this.inputJson);
+        }
+        else {
+            this.dataSource.data = [];
+            this.inputJsonException = '';
+        }
+    };
+    JsonformatComponent.prototype.toJSON = function (str) {
+        if (typeof str == 'string') {
+            try {
+                var obj = JSON.parse(str);
+                if (typeof obj == 'object' && obj) {
+                    this.validJson = obj;
+                    var jsonTree = [];
+                    this.convertJsonDataToTree(this.validJson, jsonTree);
+                    this.dataSource.data = jsonTree;
+                    console.log(jsonTree);
+                    this.inputJsonException = '';
+                }
+                else {
+                    this.inputJsonException = obj;
+                }
+            }
+            catch (e) {
+                this.inputJsonException = e;
+            }
+        }
+        return str;
+    };
+    // 递归将json数组或对象放入树结构中
+    JsonformatComponent.prototype.convertJsonDataToTree = function (obj, tree) {
+        var _this = this;
+        if (obj instanceof Array) {
+            for (var i = 0; i < obj.length; i++) {
+                if (obj[i] === null || typeof (obj[i]) !== 'object') {
+                    tree.push({ value: obj[i], childIndex: '[' + i + ']' });
+                }
+                else {
+                    var currentChildren = [];
+                    this.convertJsonDataToTree(obj[i], currentChildren);
+                    tree.push({ children: currentChildren, childIndex: '[' + i + ']' });
+                }
+            }
+        }
+        else {
+            Object.keys(obj).forEach(function (key) {
+                if (obj[key] === null || typeof (obj[key]) !== 'object') {
+                    tree.push({ value: obj[key], field: key });
+                }
+                else {
+                    var currentChildren = [];
+                    _this.convertJsonDataToTree(obj[key], currentChildren);
+                    tree.push({ children: currentChildren, field: key });
+                }
+            });
+        }
+    };
+    JsonformatComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+            selector: 'app-jsonformat',
+            template: __webpack_require__(/*! ./jsonformat.component.html */ "./src/app/utilities/jsonformat/jsonformat.component.html"),
+            styles: [__webpack_require__(/*! ./jsonformat.component.scss */ "./src/app/utilities/jsonformat/jsonformat.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], JsonformatComponent);
+    return JsonformatComponent;
 }());
 
 
@@ -649,7 +877,7 @@ var TimestampComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-drawer-container class=\"utilities\">\n  <mat-drawer class=\"type\" mode=\"side\" opened>\n      <mat-accordion>\n        <mat-expansion-panel>\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              Regular\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"timestamp\">\n            <span>linux时间戳</span>\n          </button>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"compare\">\n            <span>文字对比</span>\n          </button>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"number\">\n            <span>进制转化</span>\n          </button>\n        </mat-expansion-panel>\n        <mat-expansion-panel (opened)=\"panelOpenState = true\"\n          (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              Second\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n          <p>The second one</p>\n        </mat-expansion-panel>\n      </mat-accordion>\n  </mat-drawer>\n  <mat-drawer-content class=\"content\">\n    <div *ngIf=\"showTips\">平常经常会用到的工具都会放到这里</div>\n    <router-outlet></router-outlet>\n  </mat-drawer-content>\n</mat-drawer-container>"
+module.exports = "<mat-drawer-container class=\"utilities\">\n  <mat-drawer class=\"type\" mode=\"side\" opened>\n      <mat-accordion>\n        <mat-expansion-panel>\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              Regular\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"timestamp\">\n            <span>linux时间戳</span>\n          </button>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"compare\">\n            <span>文字对比</span>\n          </button>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"number\">\n            <span>进制转化</span>\n          </button>\n          <button mat-button (click)=\"turnToUtility()\" routerLink=\"jsonformat\">\n            <span>json格式化</span>\n          </button>\n        </mat-expansion-panel>\n        <mat-expansion-panel (opened)=\"panelOpenState = true\"\n          (closed)=\"panelOpenState = false\">\n          <mat-expansion-panel-header>\n            <mat-panel-title>\n              Second\n            </mat-panel-title>\n          </mat-expansion-panel-header>\n          <p>The second one</p>\n        </mat-expansion-panel>\n      </mat-accordion>\n  </mat-drawer>\n  <mat-drawer-content class=\"content\">\n    <div *ngIf=\"showTips\">平常经常会用到的工具都会放到这里</div>\n    <router-outlet></router-outlet>\n  </mat-drawer-content>\n</mat-drawer-container>"
 
 /***/ }),
 
